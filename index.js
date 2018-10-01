@@ -6,7 +6,7 @@ $(function(){
         var password = $("#password").val();
         if(username && (username === password)) {
             if(username === "pharmacist") {
-                location.href = "./pharmacist_index.html";
+                location.href = "./talk_room.html";
             } else if(username === "patient") {
                 location.href = "./patient_index.html";
             }
